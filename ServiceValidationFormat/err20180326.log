@@ -1,0 +1,9 @@
+26/03/2018 07:22:14 p.m.
+Ha ocurrido una excepcion: System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: source
+   en System.Linq.Enumerable.Where[TSource](IEnumerable`1 source, Func`2 predicate)
+   en ServiceValidationFormat.Service1.<ValidarFormato>d__5.MoveNext() en C:\Users\rcortes\Documents\GitHub\ServicioCustomVision\ServiceValidationFormat\ServiceValidationFormat\ValidationFormat.svc.cs:línea 1354
+       fuente: System.Core
+       mensaje: El valor no puede ser nulo.
+Nombre del parámetro: source
+       target site: System.Collections.Generic.IEnumerable`1[TSource] Where[TSource](System.Collections.Generic.IEnumerable`1[TSource], System.Func`2[TSource,System.Boolean])
